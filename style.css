@@ -1,0 +1,78 @@
+body{
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+    color: #333;
+    font-weight: 30;
+    text-align: center;
+    background-color: #f8f6f0;
+    padding-left: 350px;
+    padding-right: 350px;
+    padding-bottom: 150px;
+    background-image:url('https://i.pinimg.com/736x/e6/1f/8a/e61f8ae6d7280c13b191f0643e0bdb5e.jpg');
+    background-repeat:no-repeat;
+    background-size: cover; 
+    background-position: center;
+   
+
+  }
+  h1{
+    font-size: 35px;
+    font-family: sans-serif;
+    color:black;
+    text-align: center;
+    padding-bottom: 100px;
+  }
+  .one{
+    font-size:20px;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    color:black;
+    background-color:rgb(252, 238, 209);
+    padding:150px;
+   
+     
+  }
+  .question{
+    padding:200px;
+    padding-top:250px;
+    padding-bottom: 40px;
+   
+  }
+ 
+  .result{
+    
+  text-align: left;
+  display: inline-block; 
+  }
+  button{
+    font-size: 20px;
+    font-family: sans-serif;
+    background-color: rgb(147, 188, 201);
+    border: 0px;
+    border-radius: 1px;
+    padding:10px;
+    cursor:pointer;
+  }
+  button:hover{
+    background-color:rgb(251, 238, 184);
+  }
+  #submit:hover{
+    background-color:rgb(137, 247, 150);
+
+  }
+  .slide{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  .active-slide{
+    opacity: 1;
+    z-index: 2;
+  }
+  #timer{
+    padding:20px;
+  }
